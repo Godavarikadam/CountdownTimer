@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Domine&family=Kanit:wght@500&family=Merriweather:ital,wght@1,900&family=Oswald:wght@500&family=PT+Serif:ital,wght@1,700&family=Roboto+Slab:wght@500&display=swap');
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.above {
+    height: 100%;
+    width: 100%;
+    background-color: #ff007826;
+    align-items: center;
+
+}
+
+.one {
+    font-size: 80px;
+    color: rgb(26, 23, 23);
+    text-align: center;
+
+
+}
+
+.two {
+  font-size: 67px;
+  color: rgb(101, 6, 6);
+  text-align: center;
+  margin-top: 150px;
+  text-decoration: solid;
+  font-style: italic;
+ 
+}
+
+.column {
+    margin: auto;
+    margin-top: 75px;
+    color: solid rgb(125, 6, 6);
+    width: 1000px;
+    justify-content: center;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}
+
+.column div {
+    width: 80%;
+    text-align: center;
+    color: rgb(18, 16, 16);
+}
+
+input {
+
+    height: 60px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(48, 5, 5);
+
+
+}
